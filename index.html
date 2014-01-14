@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <style>
+    .navigation-item.active {
+      background-color: grey;
+    }
+  </style>
+</head>
+<body>
+<header>Header</header>
+<div class="navigation-container" controller="navigation#index"></div>
+<div id="main"></div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="vendor/coffee-script.js"></script>
+<script src="vendor/underscore.js"></script>
+<script src="vendor/underscore.string.js"></script>
+<script src="vendor/backbone.js"></script>
+<script src="vendor/Ractive.js"></script>
+<script src="vendor/require.js"></script>
+<script type="text/coffeescript" src="src/Globals.coffee"></script>
+<script type="text/coffeescript" src="src/Application.coffee"></script>
+<script type="text/coffeescript" src="src/Model.coffee"></script>
+<script type="text/coffeescript" src="src/Controller.coffee"></script>
+
+<script type="text/coffeescript" src="example/app/controllers/HelloController.coffee"></script>
+<script type="text/coffeescript" src="example/app/controllers/TextController.coffee"></script>
+<script type="text/coffeescript" src="example/app/controllers/ByeController.coffee"></script>
+<script type="text/coffeescript" src="example/app/controllers/TodoController.coffee"></script>
+<script type="text/coffeescript" src="example/app/controllers/NavigationController.coffee"></script>
+<script type="text/coffeescript" src="example/app/views/HelloView.coffee"></script>
+<script type="text/coffeescript" src="example/app/views/TextView.coffee"></script>
+<script type="text/coffeescript" src="example/app/views/ByeView.coffee"></script>
+<script type="text/coffeescript" src="example/app/views/TodoView.coffee"></script>
+<script type="text/coffeescript" src="example/app/views/NavigationView.coffee"></script>
+<script type="text/coffeescript" src="example/app/routes.coffee"></script>
+</body>
+</html>
